@@ -309,3 +309,25 @@ h1 {
     padding-inline: 23.3em;
   }
 }
+
+@media print {
+  header {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  section {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}
